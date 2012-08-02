@@ -50,8 +50,7 @@ module Plucky
       NormalizedKeys = {
         :order  => :sort,
         :select => :fields,
-        :offset => :skip,
-        :id     => :_id,
+        :offset => :skip
       }
 
       def normalized_key(key)
